@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { SunIcon, MoonIcon } from "@radix-ui/react-icons";
-import { Button } from "../ui/button";
+import { Button } from "@/components/ui/button";
+
 
 const ThemeToggle: React.FC = () => {
   const [theme, setTheme] = useState<string | null>(null);
