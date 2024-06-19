@@ -13,7 +13,7 @@
     "prettier-fix": "npx prettier src/**/*.{js,jsx,ts,tsx,json} --write",
     "lint-check": "eslint src/**/*.{js,jsx,ts,tsx,json} --ext tsx --ext js",
     "lint-fix": "eslint src/**/*.{js,jsx,ts,tsx,json} --fix",
-    "test-all": "npm run prettier-fix && npm run prettier-check && npm run lint-check && npm run lint-fix"
+    "test-all": "npm run prettier-fix && npm run prettier-check && npm run lint-fix && npm run lint-check"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

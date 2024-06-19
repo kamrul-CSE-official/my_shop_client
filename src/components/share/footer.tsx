@@ -51,7 +51,7 @@ const FooterComponents: FC = () => {
                 <p key={i} className="font-light text-sm my-3">
                   {item}
                 </p>
-              )
+              ),
             )}
           </div>
           <div>
