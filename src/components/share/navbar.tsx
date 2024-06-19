@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Navbar: FC = () => {
   return (
     <div>
+      <span>Navbar</span>
       <ul className="flex items-center justify-center gap-10">
         <li>
           <Link to="/">Home</Link>
