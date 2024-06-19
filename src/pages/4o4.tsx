@@ -21,7 +21,7 @@ const PageNotFoundPage = () => {
         animationData={animationData}
         className="w-1/2 h-1/2 flex items-center"
       />
-      <Link to="/">
+      <Link to="/" className="cursor-pointer">
         <Button>Go to home</Button>
       </Link>
     </div>
