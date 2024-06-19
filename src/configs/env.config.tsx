@@ -6,5 +6,4 @@ const envConfig: IEnv = {
   publicApi: import.meta.env.VITE_PUBLIC_API || "http://localhost:5000",
 };
 
-
-export default envConfig
+export default envConfig;

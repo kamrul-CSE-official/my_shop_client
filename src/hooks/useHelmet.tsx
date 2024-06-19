@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import favIcon from "@/assets/logo.png"
+import favIcon from "@/assets/logo.png";
 
 const HelmetComponent = ({
   title,
