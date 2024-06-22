@@ -9,9 +9,8 @@ const HomePage = () => {
     return (
         <div className="bg-orange-500">
             {helmet}
-            This is home page
-            <p className="text-red-500 text-6xl">Kamurl</p>
-            <p className="text-primary">Kamurl</p>
+
+            <p className="text-primary">This is home page</p>
         </div>
     );
 };
