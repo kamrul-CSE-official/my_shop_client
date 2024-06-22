@@ -10,6 +10,12 @@ const ContactPage = () => {
         <div>
             {helmet}
             <p>This is contact page</p>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
+                ducimus itaque quo? Dicta consectetur nisi magnam itaque
+                aspernatur. Excepturi, error. Possimus nostrum culpa vero nemo
+                omnis error velit, exercitationem expedita.
+            </p>
         </div>
     );
 };
