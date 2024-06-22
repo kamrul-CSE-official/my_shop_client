@@ -1,5 +1,5 @@
 import {createSlice, PayloadAction} from '@reduxjs/toolkit';
-import {IProduct} from '@/types/products';
+import {IProduct} from '@/types/products.types';
 
 interface ProductsState {
     products: IProduct[];
