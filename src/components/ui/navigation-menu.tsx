@@ -1,17 +1,8 @@
-<<<<<<< HEAD
 import * as React from 'react';
 import {ChevronDownIcon} from '@radix-ui/react-icons';
 import * as NavigationMenuPrimitive from '@radix-ui/react-navigation-menu';
 import {cva} from 'class-variance-authority';
-
 import {cn} from '@/lib/utils';
-=======
-import * as React from "react";
-import { ChevronDownIcon } from "@radix-ui/react-icons";
-import * as NavigationMenuPrimitive from "@radix-ui/react-navigation-menu";
-import { cva } from "class-variance-authority";
-import { cn } from "@/lib/utils";
->>>>>>> 3fd7514428bdc4621e70c45d86ca49a40df1e63c
 
 const NavigationMenu = React.forwardRef<
     React.ElementRef<typeof NavigationMenuPrimitive.Root>,
