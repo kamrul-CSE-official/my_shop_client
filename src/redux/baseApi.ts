@@ -1,6 +1,6 @@
 import {createApi} from '@reduxjs/toolkit/query/react';
 import {axiosBaseQuery} from '@/utils/axiosBaseQuery';
-import envConfig from '@/config/envConfig';
+import envConfig from '@/configs/env.config';
 
 export const baseApi = createApi({
     baseQuery: axiosBaseQuery({
