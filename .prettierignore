@@ -8,6 +8,8 @@ coverage
 **/.svn
 **/.hg
 **/node_modules
+*.docker
+*.text
 
 # Ignore all HTML files:
 **/*.html
