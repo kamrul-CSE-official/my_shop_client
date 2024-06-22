@@ -84,8 +84,7 @@ const Navbar: FC = () => {
                                             isPathActive(item.path)
                                                 ? 'border border-primary'
                                                 : ''
-                                        }
-                                    >
+                                        }>
                                         <NavigationMenuLink href={item.path}>
                                             {item.name}
                                         </NavigationMenuLink>
@@ -96,8 +95,7 @@ const Navbar: FC = () => {
                                                 <NavigationMenuLink
                                                     href={detail.courseLink}
                                                     key={detail.id}
-                                                    className="hover:bg-slate-100 dark:hover:bg-black p-3 text-start rounded-md"
-                                                >
+                                                    className="hover:bg-slate-100 dark:hover:bg-black p-3 text-start rounded-md">
                                                     <h4 className="text-sm font-bold">
                                                         {detail.courseName}
                                                     </h4>
@@ -111,8 +109,7 @@ const Navbar: FC = () => {
                                             <Link to={item.path}>
                                                 <Button
                                                     variant="ghost"
-                                                    className="w-full"
-                                                >
+                                                    className="w-full">
                                                     See More...
                                                 </Button>
                                             </Link>
@@ -127,8 +124,7 @@ const Navbar: FC = () => {
                                                 ? 'border border-primary'
                                                 : ''
                                         }
-                                        variant="ghost"
-                                    >
+                                        variant="ghost">
                                         {item.name}
                                     </Button>
                                 </NavigationMenuLink>
@@ -185,8 +181,7 @@ const Navbar: FC = () => {
                 <nav className="flex items-center gap-2">
                     <Link
                         to="/"
-                        className="w-[40px] md:w-[54px] h-[40px] md:h-[54px]"
-                    >
+                        className="w-[40px] md:w-[54px] h-[40px] md:h-[54px]">
                         <img
                             src="/logo 2.png"
                             alt="logo"
@@ -206,8 +201,7 @@ const Navbar: FC = () => {
                                         isPathActive('/signup')
                                             ? 'default'
                                             : 'ghost'
-                                    }
-                                >
+                                    }>
                                     Sign Up
                                 </Button>
                             </Link>
@@ -217,8 +211,7 @@ const Navbar: FC = () => {
                                         isPathActive('/login')
                                             ? 'default'
                                             : 'ghost'
-                                    }
-                                >
+                                    }>
                                     Login
                                 </Button>
                             </Link>
