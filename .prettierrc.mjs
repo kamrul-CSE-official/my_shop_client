@@ -5,4 +5,5 @@ export default {
     trailingComma: 'all',
     tabWidth: 4,
     jsxBracketSameLine: true,
+    bracketSameLine: true,
 };
