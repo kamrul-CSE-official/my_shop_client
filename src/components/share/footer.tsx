@@ -29,7 +29,7 @@ const FooterComponents: FC = () => {
                     </Link>
                     <div className="flex flex-col items-start my-3">
                         <p className="flex items-center gap-3">
-                            <EnvelopeOpenIcon /> motiveandskill@gmail.com
+                            <EnvelopeOpenIcon /> myshop@gmail.com
                         </p>
                         <p className="flex items-center gap-3">
                             <MobileIcon /> +88 01823855998
