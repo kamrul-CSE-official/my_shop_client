@@ -1,10 +1,9 @@
 interface IEnv {
-  publicApi: string;
+    baseAPI: string;
 }
 
 const envConfig: IEnv = {
-  publicApi: import.meta.env.VITE_PUBLIC_API || "http://localhost:5000",
+    baseAPI: import.meta.env.VITE_BASE_API || 'http://localhost:5000/api/v1',
 };
 
-
-export default envConfig
+export default envConfig;
