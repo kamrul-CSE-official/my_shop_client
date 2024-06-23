@@ -73,7 +73,7 @@ export default function SignupPage() {
   }
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100 p-4">
+    <div className="flex items-center justify-center bg-gray-100 p-4 min-h-[90vh]">
       <div className="max-w-md w-full bg-white rounded-lg shadow-lg p-8">
         <h2 className="text-2xl font-bold text-center mb-6">Sign Up</h2>
         <Form {...SignUpForm}>
@@ -165,8 +165,8 @@ export default function SignupPage() {
                     />
                   </FormControl>
                   <FormDescription>
-                    Password must be at least 8 characters long, upto 25
-                    characters and include at least one uppercase letter, one
+                    Password must be at least 8 characters long, up to 25
+                    characters, and include at least one uppercase letter, one
                     lowercase letter, one number, and one special character.
                   </FormDescription>
                   <FormMessage />
