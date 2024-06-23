@@ -11,6 +11,12 @@ const HomePage = () => {
             {helmet}
 
             <p className="text-primary">This is home page</p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
+                nobis saepe molestiae laboriosam vero harum animi illum
+                voluptates porro. Animi quisquam voluptates, et illo itaque
+                perferendis minima dolores tempore assumenda.
+            </p>
         </div>
     );
 };
