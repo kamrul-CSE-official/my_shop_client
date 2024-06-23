@@ -10,7 +10,7 @@ const HomePage = () => {
         <div className="bg-orange-500">
             {helmet}
 
-            <p className="text-primary">This is home page</p>
+            <p className="text-primary text-xl">This is home page</p>
             <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum,
                 nobis saepe molestiae laboriosam vero harum animi illum
