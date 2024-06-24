@@ -1,5 +1,3 @@
-'use client';
-
 import {zodResolver} from '@hookform/resolvers/zod';
 import {useForm} from 'react-hook-form';
 import {z} from 'zod';
@@ -48,7 +46,7 @@ export default function LoginPage() {
                 letter, one number, and one special character.
             </p>
             <div className="mx-3 md:mx-32 flex flex-col-reverse md:flex-row items-center justify-center">
-                <div className="w-full rounded-lg shadow-md p-1 md:p-8">
+                <div className="w-full rounded-lg shadow-md p-1 md:p-8 animate-fade-right">
                     <Form {...LoginForm}>
                         <form
                             onSubmit={LoginForm.handleSubmit(onSubmit)}
@@ -95,7 +93,10 @@ export default function LoginPage() {
                         Don't have an account? Signup
                     </Link>
                 </div>
-                <LottieComponent animationData={loginImage} className="w-1/2" />
+                <LottieComponent
+                    animationData={loginImage}
+                    className="w-1/2 animate-fade-left"
+                />
             </div>
         </div>
     );
