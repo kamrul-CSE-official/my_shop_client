@@ -63,15 +63,15 @@ export default function SignupPage() {
     }
 
     return (
-        <div className="min-w-screen min-h-screen flex flex-col items-center justify-center m-3">
+        <div className="min-w-screen min-h-screen flex flex-col items-center justify-center m-3 md:m-1">
             <h2 className="text-4xl font-extrabold">Signup</h2>
             <p className="my-3 text-justify md:text-center">
                 Password must be at least 6 characters long, upto 25 characters
                 and include at least one uppercase letter, <br /> one lowercase
                 letter, one number, and one special character.
             </p>
-            <div className="mx-3 md:mx-32 flex flex-col md:flex-row items-center justify-center">
-                <div className="w-full rounded-lg shadow-md p-8">
+            <div className="mx-3 md:mx-32 flex flex-col-reverse md:flex-row items-center justify-center">
+                <div className="w-full rounded-lg shadow-md p-1 md:p-8">
                     <Form {...SignUpForm}>
                         <form
                             onSubmit={SignUpForm.handleSubmit(onSubmit)}
