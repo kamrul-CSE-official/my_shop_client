@@ -144,7 +144,11 @@ const Navbar: FC = () => {
                 </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                {navItems.map((item, index) => (
+                {[
+                    ...navItems,
+                    {name: 'Login', path: '/login'},
+                    {name: 'Signup', path: '/signup'},
+                ]?.map((item, index) => (
                     <DropdownMenuItem key={index}>
                         <Link to={item.path}>{item.name}</Link>
                     </DropdownMenuItem>
@@ -194,7 +198,7 @@ const Navbar: FC = () => {
                 </nav>
                 <nav className="flex items-center gap-3">
                     {!userData && (
-                        <>
+                        <div className="hidden md:block">
                             <Link to="/signup">
                                 <Button
                                     variant={
@@ -215,7 +219,7 @@ const Navbar: FC = () => {
                                     Login
                                 </Button>
                             </Link>
-                        </>
+                        </div>
                     )}
                     {userData && (
                         <div className="relative">{renderProfileAvatar()}</div>
