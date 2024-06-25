@@ -18,8 +18,14 @@ module.exports = {
         '@typescript-eslint/no-explicit-any': 'off',
         'react-refresh/only-export-components': [
             'warn',
-            {allowConstantExport: true},
+            { allowConstantExport: true },
         ],
-        'prettier/prettier': 'warn', // Add this line
+        "prettier/prettier": [
+            "warn",
+            {
+                "singleQuote": true,
+                "parser": "flow"
+            }
+        ]
     },
 };

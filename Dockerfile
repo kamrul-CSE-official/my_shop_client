@@ -9,13 +9,13 @@ WORKDIR /app
 
 # Installing dependencies
 COPY ./package.json ./
-RUN npm install
+RUN pnpm install
 
 # Copying all the files in our project
 COPY . .
 
 # Building our application
-RUN npm run build
+RUN pnpm run build
 
 # Fetching the latest nginx image
 FROM nginx
