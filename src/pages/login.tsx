@@ -39,7 +39,7 @@ export default function LoginPage() {
     }
 
     return (
-        <div className="flex min-h-screen items-center justify-center dark:bg-gray-900 p-4">
+        <div className="flex min-h-screen items-center justify-center p-4">
             <LottieComponent
                 animationData={animationData}
                 className="hidden md:block w-1/2 justify-center items-center p-4 md:mr-8"
