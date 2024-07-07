@@ -97,10 +97,10 @@ export default function SignupPage() {
     }
 
     return (
-        <div className="flex items-center justify-center dark:bg-gray-900 p-4 min-h-screen">
+        <div className="flex items-center justify-center p-4 min-h-screen">
             <LottieComponent
                 animationData={animationData}
-                className="hidden md:block w-1/2 justify-center items-center p-4 mr-8 drop-shadow-sm"
+                className="hidden md:block w-1/3 justify-center items-center p-4 mr-8 drop-shadow-sm"
             />
             <div className="w-full max-w-md bg-white dark:bg-gray-800 rounded-lg shadow-lg p-2 md:p-6 drop-shadow-md">
                 <h2 className="text-2xl font-bold text-center mb-3 md:mb-1 dark:text-white">
